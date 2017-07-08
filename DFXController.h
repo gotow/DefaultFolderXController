@@ -1,6 +1,5 @@
 //
-//  DFXControl.h
-//  Open & Save Tester
+//  DefaultFolderXController.h
 //
 //  Created by Jon Gotow on 7/7/17.
 //  Copyright © 2017 Jon Gotow. All rights reserved.
@@ -8,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DFXController : NSObject
+@interface DefaultFolderXController : NSObject
 
-+ (BOOL)setDefaultFolderXEnabled:(BOOL)enabled;
++ (BOOL)setEnabled:(BOOL)enabled;
 
 @end
