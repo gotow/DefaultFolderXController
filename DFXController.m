@@ -1,6 +1,5 @@
 //
-//  DFXControl.m
-//  Open & Save Tester
+//  DefaultFolderXController.m
 //
 //  Created by Jon Gotow on 7/7/17.
 //  Copyright © 2017 Jon Gotow. All rights reserved.
@@ -16,11 +15,11 @@
 @end
 
 // A one-method singleton
-@implementation DFXController
+@implementation DefaultFolderXController
 
 //-------------------------------------------------------------------------------------------------------------
 // Enable or disable Default Folder X. This does nothing if Default Folder X isn't running.
-+ (BOOL)setDefaultFolderXEnabled:(BOOL)enabled
++ (BOOL)setEnabled:(BOOL)enabled
 {
     static NSString *dfxBundleID = @"com.stclairsoft.DefaultFolderX5";
     BOOL result = NO;
