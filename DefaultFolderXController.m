@@ -5,7 +5,7 @@
 //  Copyright © 2017 Jon Gotow. All rights reserved.
 //
 
-#import "DFXController.h"
+#import "DefaultFolderXController.h"
 #import <ScriptingBridge/ScriptingBridge.h>
 
 // Declare these to shut the compiler up
