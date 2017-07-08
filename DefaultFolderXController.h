@@ -9,6 +9,7 @@
 
 @interface DefaultFolderXController : NSObject
 
+// Enable or disable Default Folder X. This does nothing if Default Folder X isn't running.
 + (BOOL)setEnabled:(BOOL)enabled;
 
 @end
