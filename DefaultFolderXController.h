@@ -5,7 +5,7 @@
 //  Copyright © 2017 Jon Gotow. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <AppKit/AppKit.h>
 
 @interface DefaultFolderXController : NSObject
 
