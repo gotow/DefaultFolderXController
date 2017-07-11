@@ -1,5 +1,5 @@
 # DefaultFolderXController
-An Objective-C singleton for controlling Default Folder X
+An Objective-C singleton for controlling Default Folder X 5.1.6 or later
 
 ## What does it do?
 Default Folder X (https://www.stclairsoft.com/DefaultFolderX/) is a macOS utility that enhances Open and Save dialogs in all applications. Its intent is to provide users with faster navigation in file dialogs, but there are situations where that may interfere with the intended workflow in an application. This class uses the ScriptingBridge.framework to allow developers to control Default Folder X via AppleScript. It currently just allows you to disable and enable Default Folder X on the fly.
